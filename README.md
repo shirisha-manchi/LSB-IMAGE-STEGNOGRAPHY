@@ -59,3 +59,23 @@ Output
 Encoded BMP image containing hidden data
 Decoded text file with the original secret message
 
+## Screenshots
+
+### Input Image
+![Input Image](images/input_image.png)
+
+### Secret Message File
+![Secret Message](images/secret_msg.png)
+
+### Encoding Process
+![Encoding](images/encoding.png)
+
+### Output Stego Image
+![Output Image](images/output_image.png)
+
+### Decoding Process
+![Decoding](images/decoding.png)
+
+### Extracted Secret Message
+![Extracted Message](images/output_secret_msg.png)
+
