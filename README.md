@@ -1,6 +1,6 @@
-# 🔐 Image Steganography using C (LSB Technique)
+# Image Steganography using C (LSB Technique)
 
-## 📌 Project Overview
+## Project Overview
 This project implements **Image Steganography** using the **Least Significant Bit (LSB)** technique in **C programming language**.  
 It allows users to **hide a secret text file inside a BMP image** (Encoding) and later **extract the hidden message** from the image (Decoding).
 
@@ -8,7 +8,7 @@ The project works at a **low-level binary format**, modifying only the least sig
 
 ---
 
-## ✨ Features
+## Features
 - Encode secret text into a **24-bit BMP image**
 - Decode hidden text from the stego image
 - Uses **LSB (Least Significant Bit)** technique
@@ -19,7 +19,7 @@ The project works at a **low-level binary format**, modifying only the least sig
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Programming Language:** C  
 - **Concepts Used:**
   - File handling
@@ -29,7 +29,7 @@ The project works at a **low-level binary format**, modifying only the least sig
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ├── main.c
 ├── encode.c
 ├── decode.c
@@ -44,30 +44,18 @@ The project works at a **low-level binary format**, modifying only the least sig
 
 ---
 
-## ⚙️ Compilation
+## Compilation
 Compile the project using `gcc`:
-
-```bash
 gcc *.c -o stego
 
-🔸 Encoding (Hide Secret Data)
+
+Encoding (Hide Secret Data)
 ./stego -e <source.bmp> <secret.txt> [output.bmp]
 
-🔸 Decoding (Extract Secret Data)
+Decoding (Extract Secret Data)
 ./stego -d <stego.bmp> [output.txt]
 
-📤 Output
-
+Output
 Encoded BMP image containing hidden data
-
 Decoded text file with the original secret message
 
-Future Enhancements
-
-Support for additional image formats (PNG, JPG)
-
-Password-protected encoding and decoding
-
-GUI-based application
-
-Support for larger file types
